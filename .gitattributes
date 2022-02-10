@@ -1,0 +1,5 @@
+# Normalise line endings
+* text=auto
+
+# Stop package-lock.json diffs
+package-lock.json  binary
