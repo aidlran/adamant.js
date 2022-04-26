@@ -1,3 +1,4 @@
+import Events from './lib/events.js';
 import Singleton from './lib/singleton.js';
 
 /**
@@ -14,10 +15,12 @@ export function createElement(tagName, properties, callback) {
 }
 
 export {
+	Events,
 	Singleton
 };
 
 export default {
 	createElement,
+	Events,
 	Singleton
 };
