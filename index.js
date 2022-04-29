@@ -1,4 +1,5 @@
 import Events from './lib/events.js';
+import ViewStack from './lib/view-stack.js';
 import Singleton from './lib/singleton.js';
 
 /**
@@ -16,11 +17,13 @@ export function createElement(tagName, properties, callback) {
 
 export {
 	Events,
+	ViewStack,
 	Singleton
 };
 
 export default {
 	createElement,
 	Events,
+	ViewStack,
 	Singleton
 };
